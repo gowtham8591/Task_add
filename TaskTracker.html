@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Task Tracker</title>
+		<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="headerDiv">
+				<span class="mainheader">Task Tracker</span>
+				<span class="subheader">v2.0</span>
+			<div>
+		</header>
+
+		<div id="leftnav">
+			<div class="divCreateTask">
+				<h3>Create a Task</h3>
+				<label for="TaskID">Task Name</label>
+				<input type="text" id="TaskID" />
+				<label for="DateID">Date</label>
+				<input id="DateID" type="text" /> 
+				<label for="PersonID"> Assigned To</label>
+				<input type="text" id="PersonID">
+				<input type="button" id="btnSubmit" value="Submit" />
+			</div>
+		</div>
+
+		<div id="rightnav">
+			<div class="divExistingTasks">
+				<h3>Existing Tasks</h3>
+				<table id="tblData" cellspacing="0" cellpadding="0">
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+		     	
+		<script type="text/javascript" src="jquery/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="Scripts/TaskTracker.js"></script>
+	</body>
+</html>

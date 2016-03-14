@@ -1,0 +1,104 @@
+body{
+	background-color: #D8D8D8;
+	font-family:arial;
+}
+label{
+	font-weight: bold;
+	margin-bottom:10px;
+}
+#btnSubmit{
+	background-color: #434343;
+     color: #ffffff;
+     padding: 13px;
+     font-size: 15px;
+     font-weight: bold;
+     font-family: tahoma;
+     -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #595959; 
+    outline:0;
+    width:100px;
+    text-align: center;
+    line-height: 12px;
+}
+
+#leftnav{
+	width: 50%; 
+	float:left;
+	background-color: #F0F0F0;
+}
+
+#rightnav{
+	width: 50%; 
+	float:right;
+	background-color: #F0F0F0;
+}
+
+.divCreateTask, .divExistingTasks{
+	background-color: white;
+	padding:20px;
+	min-height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+
+input{
+	font-size: 20px;
+	background-color: #ECECEC;
+	width: 100%;
+	height: 40px;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #DEDEDE; 
+    outline:0; 
+    margin-bottom:15px;
+}
+
+header{
+	background-color: #E2E2E2;
+	border:1px solid #E2E2E2;
+}
+
+.headerDiv {
+	background-color: #F0F0F0;
+	padding-left:20px;
+	padding-top:40px;
+	padding-bottom: 40px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.mainheader{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.mainheader, .subheader{
+	display:block;
+}
+
+.subheader{
+	color:#616161;
+	font-size: 18px;
+}
+
+table{
+	border:2px solid #DEDEDE;
+	width:100%;
+	padding:5px;
+	border-radius:5px;
+}
+
+tr td:last-child{
+	font-weight: bold;
+}
+table tr{
+	height: 50px;
+}
+tr:nth-child(even) {background: #ECECEC}
+tr:nth-child(odd) {background: #FFF}
